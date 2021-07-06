@@ -1,34 +1,31 @@
 package BattistaAntonellaP2PB2;
 
-public class DirectorTecnico extends Persona implements IMiembro{
+public class DirectorTecnico extends Persona implements IMiembro, IDirectorTecnico{
 
 	private Integer edad;
-
+	private String tipoMiembro;
+	private String equipo;
 
 	public DirectorTecnico(Integer dni, String nombreYApellido) {
 		super(dni, nombreYApellido);
+		this.edad=edad;
+		this.tipoMiembro=tipoMiembro;
 	
 	}
-
-	public Integer getEdad() {
-		return edad;
-	}
-
-
-	public void setEdad(Integer edad) {
-		this.edad = edad;
-	}
-
+	
 	@Override
 	public String getTipo() {
-		// TODO Auto-generated method stub
-		return null;
+		return this.tipoMiembro;
 	}
 
 	@Override
 	public String setEquipo() {
-		// TODO Auto-generated method stub
-		return null;
+		return this.equipo ="DT";
+	}
+
+	@Override
+	public Integer getEdad() {
+		return this.edad;
 	}
 	
 }

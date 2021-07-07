@@ -5,16 +5,23 @@ import org.junit.Test;
 public class TestTorneo {
 
 	@Test
-    public void queSePuedaCrearUnPartido() {
-    
-    }
-	
+	public void queSePuedaCrearUnTorneo() {
+
+	}
+
 	@Test
-    public void queSePuedaAgregarJugadoresYDT() {
-		
-		
+	public void queSePuedaAgregarJugadoresYDT() {
+
 	}
 	
 	
+	@Test
+    public void queNoExistanDosJugadoresConElMismoDni() {
+	
+	}
+	
+	@Test
+	public void queSeNoPuedaCrearPartidoSiNoExisteLaCantidadDeJugadoresCorrespondiente(){
+		
+	}
 }
-

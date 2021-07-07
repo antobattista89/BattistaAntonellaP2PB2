@@ -5,7 +5,7 @@ public class Jugador extends Persona implements IMiembro{
 	private String tipoMiembro;
 	private String equipo;
 	
-	public Jugador(Integer dni, String nombreYApellido) {
+	public Jugador(Integer dni, String nombreYApellido,Posicion tipoPosicion) {
 		super(dni, nombreYApellido);
 		
 	}

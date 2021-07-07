@@ -6,7 +6,7 @@ public class DirectorTecnico extends Persona implements IMiembro, IDirectorTecni
 	private String tipoMiembro;
 	private String equipo;
 
-	public DirectorTecnico(Integer dni, String nombreYApellido) {
+	public DirectorTecnico(Integer dni, String nombreYApellido,Posicion tipoPosicion) {
 		super(dni, nombreYApellido);
 		this.edad=edad;
 		this.tipoMiembro=tipoMiembro;
